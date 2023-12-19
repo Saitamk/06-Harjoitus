@@ -1,0 +1,20 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 3rem;
+  padding: 1rem;
+}
+#content {
+  display: flex;
+}
+li {
+  border-radius: 0 0 1rem 0;
+  padding: 1rem;
+}
+#container li:nth-child(even) {
+  background-color: #e0eac5;
+}
+#container2 li:nth-child(odd) {
+  background-color: #e0eac5;
+}
